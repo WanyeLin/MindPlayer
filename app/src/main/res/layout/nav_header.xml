@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="#F44"
+
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/image"
+        android:src="@drawable/home"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize = "14sp"
+        android:layout_gravity="start"
+        android:background="#FFF"
+        android:layout_alignParentBottom="true"/>
+
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wanye.lin.wei@gmail.com"
+        android:textSize = "14sp"
+        android:background="#FFF"
+        android:layout_above="@id/username"
+        />
+
+</RelativeLayout>
